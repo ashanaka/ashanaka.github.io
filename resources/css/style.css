@@ -26,17 +26,82 @@ html {
     margin: 0 auto;
 }
 
+section {
+    padding: 80px 0;
+}
+
+.box {
+    padding: 1%;
+}
+
+.box p {
+    font-size: 90%;
+    line-height: 145%;
+    text-align: justify;
+}
+
+.box h3 {
+    text-align: center;
+}
+
+/*======= PARAGRAPH ======*/  
+.long-copy {
+    line-height: 145%;
+    width: 70%;
+    margin-left: 15%;
+    text-align: center
+}
+
+
 /*======= HEADINGS ======*/
+
+h1,
+h2,
+h3 {
+    font-weight: 300;
+    text-transform: uppercase;
+}
 
 h1 {
     margin-top: 0px;
     margin-bottom: 20px;
     color: #fff;
-    font-size: 240%;
-    font-weight: 300;
-    text-transform: uppercase;
-    letter-spacing: 1px;
+    font-size: 240%;  
     word-spacing: 40x;
+    letter-spacing: 1px;
+}
+
+h2 {
+    font-size: 180%;
+    word-spacing: 2px;
+    text-align: center;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+
+h3 {
+    font-size: 110%;
+    margin-bottom: 15px;
+}
+
+h2:after {
+    display: block;
+    height: 2px;
+    width: 100px;
+    content: " ";
+    background-color: #e67e22;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+/*======= ICONS ======*/
+
+.icon-big {
+    font-size: 350%;
+    color: #e67e22;
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
 }
 
 /*======= BUTTONS ======*/
@@ -79,6 +144,7 @@ h1 {
     border: 1px solid #cf6d17;
     color: #fff;
 }
+
 
 /*===========================================*/
 /*HEADER*/

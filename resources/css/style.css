@@ -485,7 +485,7 @@ footer {
     padding-top: 20px;
     padding-bottom: 10px;
     background-color: rgb(29, 29, 29);
-    color: #fff;
+    color: #919191;
 }
 
 .footer-nav ul,
@@ -497,7 +497,7 @@ footer {
     display: inline-block;
     margin-right: 10px;
     float: left;
-    border-left: 1px solid #fff;
+    border-left: 1px solid #919191;
     padding-left: 10px;
 }
 
@@ -515,7 +515,7 @@ footer {
 
 .footer-nav li a:link,
 .footer-nav li a:visited {
-    color: #fff;
+    color: #919191;
     text-decoration: none;
     border: 0;
     transition: color 0.2s;
@@ -528,7 +528,7 @@ footer {
 
 .social-links li a:link,
 .social-links li a:visited {
-    color: #fff;
+    color: #919191;
     border: 0;
     text-decoration: none;
     font-size: 110%;
